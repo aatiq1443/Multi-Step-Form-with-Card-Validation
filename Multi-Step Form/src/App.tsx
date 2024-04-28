@@ -1,12 +1,18 @@
 
 import './App.css'
+import { Route ,Routes , BrowserRouter as Router } from 'react-router-dom';
+import UserForm from './pages/user-info.tsx';
+import PaymentForm from './pages/payment.tsx/index.tsx';
 
-function App() {
-  
-
+const App: React.FC = () =>{
   return (
     <>
-     Welcome to the assignment
+      <Router>
+        <Routes>
+          <Route path="/" element={<UserForm />} />
+          <Route path="/payment-info" element={<PaymentForm />} />
+        </Routes>
+      </Router>
     </>
   )
 }
