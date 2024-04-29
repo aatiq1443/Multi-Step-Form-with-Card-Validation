@@ -21,5 +21,8 @@ Screen Shot:
 
 Screen Recording of the site:-
 
-https://github.com/aatiq1443/SurveySparrow-Assignment/assets/77941370/437a5b47-f952-4ee4-8054-50a2b81abede
+
+
+
+https://github.com/aatiq1443/SurveySparrow-Assignment/assets/77941370/5ac2e7d9-6026-4770-80e2-155ea765d336
 
