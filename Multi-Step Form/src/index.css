@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body {
+  @apply bg-background-800 text-white;
+}
+
+button,
+button[type="submit"] {
+  @apply rounded-md bg-gradient-to-r from-primary-500 to-secondary-600 px-6 py-2 text-black hover:opacity-50;
+}
+
+button:disabled,
+button[type="submit"]:disabled {
+  @apply opacity-50;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  @apply rounded-md border  outline-none px-4 py-5 text-black shadow-md focus:border-indigo-300;
+}
+input[type="password"] {
+  @apply w-[100px] rounded-md border  outline-none px-4 py-5 text-black shadow-md focus:border-indigo-300;
+}
+
