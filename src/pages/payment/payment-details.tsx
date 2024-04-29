@@ -117,7 +117,7 @@ const PaymentDetails: React.FC = () => {
           >
             <div className="flex gap-2">
               <div>
-                <img src="../../../src/assets/svg/arrow-left.svg" />
+                <img src="../../../public/assets/svg/arrow-left.svg" />
               </div>
               <div>{constant.PREV_BUTTON}</div>
             </div>

@@ -86,7 +86,7 @@ const UserDetails: React.FC = () => {
               <div className="flex items-center gap-2">
                 <div className="text-lg ">{constant.NEXT_BUTTON}</div>
                 <div>
-                  <img src="../../../src/assets/svg/arrow-right.svg" />
+                  <img src="../../../public/assets/svg/arrow-right.svg" />
                 </div>
               </div>
             )}
